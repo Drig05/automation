@@ -1,0 +1,15 @@
+Abstract Methods :- 
+
+		1. Abstract methods have only declaration but not implementation.
+		Ex:- public abstract void sum();
+		2. Abstract methods ends with semicolon not curly braces.
+		3. If a class contains at least one abstract method then its compulsory to declare that   		class as abstract.
+		4. Child classes are responsible for providing implementation.
+	
+	Vehicle:-  parent(getWheels)
+		   Cycle,Car,Truck,Bus - child classes
+		   Ex:- Vehcle v=new Car();
+			
+	WebDriver:- parent(driver.get, driver.close)
+		   ChromeDriver, FirefoxDriver, EdgeDriver :- child classes
+		   Ex:- WebDriver driver=new ChromeDriver();
